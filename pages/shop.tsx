@@ -1,8 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head"
 import NavBar from "../components/common/NavBar"
 
-const Tienda = (): JSX.Element => {
+const Shop = (): JSX.Element => {
     return (
         <div>
             <Head>
@@ -14,4 +13,4 @@ const Tienda = (): JSX.Element => {
     )
 }
 
-export default Tienda
+export default Shop

@@ -1,8 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head"
 import NavBar from "../components/common/NavBar"
 
-const Nosotros = (): JSX.Element => {
+const About = (): JSX.Element => {
     return (
         <div>
             <Head>
@@ -14,4 +13,4 @@ const Nosotros = (): JSX.Element => {
     )
 }
 
-export default Nosotros
+export default About
